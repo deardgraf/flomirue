@@ -1,0 +1,91 @@
+.Vision {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+.backgroundVision {
+    position: absolute;
+    width: 58vw;
+    height: 26vw;
+    object-fit: cover;
+    margin-top: 7vw;
+    z-index: 1;
+  }
+
+.overlayVision {
+    position: absolute;
+    width: 26vw;
+    height: auto;
+    margin-top: 7vw;
+    margin-right: 45vw;
+    z-index: 2;
+}
+
+.textVision {
+    position: absolute;
+    z-index: 3;
+    width: 24vw;
+    margin-right: 44vw;
+    margin-bottom: 28vw;
+}
+
+.overlayText {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    width: 45vw;
+    height: 30vw;
+    align-items: center;
+    margin-right: 32vw;
+    margin-top: 5vw;
+}
+
+.textV1 {
+    font-family: 'DM Serif Text';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.7vw;
+    line-height: 200%;
+    text-shadow: 0 0 0.35vw white;
+}
+
+.rectangleGray {
+    width: 5vw;
+    height: 5vw;
+}
+
+.overlayText2 {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 30vw;
+    text-align: left;
+    margin-right: 25vw;
+    margin-top: 64vw;
+}
+
+.textV2 {
+    font-family: 'Didot';
+    color: #706677;
+    font-size: 2.3vw;
+    text-shadow: 0 0 0.35vw white;
+    margin-bottom: 0;
+}
+
+.textV3 {
+    font-family: 'Didot';
+    color: #706677;
+    font-size: 1.6vw;
+    text-shadow: 0 0 0.35vw white;
+}
