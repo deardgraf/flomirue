@@ -3,7 +3,7 @@ import '../styles/HomePage.css';
 import { Link } from 'react-router-dom';
 import background1 from '../images/background1.jpg';
 import flomirueTitle from '../images/flomirueTitle.svg';
-import embraceS from '../images/embraceStatic.svg';
+import embraceS from '../images/embraceStatic1.svg';
 
 function HomePage() {
   return (

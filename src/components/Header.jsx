@@ -27,14 +27,14 @@ const Header = ({}) => {
                     className="button-image"
                 />
             </Link>
-            <Link to="/vision" className="store-button">
+            <Link to="/store" className="store-button">
                 <img
                     src={storeS}
                     alt="Store"
                     className="button-image"
                 />
             </Link>
-            <Link to="/vision" className="artist-button">
+            <Link to="/artist" className="artist-button">
                 <img
                     src={artistS}
                     alt="Artist"

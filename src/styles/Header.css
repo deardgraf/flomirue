@@ -1,4 +1,4 @@
-.header {
+  .header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,7 +20,7 @@
     z-index: 1000;
   }
 
-  .header-container {
+.header-container {
     display: flex;
     align-items: center;
     gap: 2.22%;
@@ -58,8 +58,40 @@
     object-fit: contain;
   }
 
+  .vision-button:hover img{
+    content: url("../images/visionHover.svg");
+  }
+
+  .vision-button:active img{
+    content: url("../images/visionClick.svg");
+  }
+    
+  .store-button:hover img{
+    content: url("../images/storeHover.svg");
+  }
+
+  .store-button:active img{
+    content: url("../images/storeClick.svg");
+  }
+    
+  .artist-button:hover img{
+    content: url("../images/artistHover.svg");
+  }
+
+  .artist-button:active img{
+    content: url("../images/artistClick.svg");
+  }
+
   .icon-image {
     width: 2vw;
     object-fit: contain;
     margin-right: 2vw;
+  }
+  
+ .icon-image:hover {
+    content: url("../images/logoCartHover.svg");
+  }
+
+  .icon-image:active {
+    content: url("../images/logoCartClick.svg");
   }

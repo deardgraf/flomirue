@@ -39,3 +39,11 @@
     position: relative;
     z-index: 3;
   }
+
+  .embrace-button:hover img {
+    content: url("../images/embraceHover1.svg");
+  }
+
+  .embrace-button:active img {
+    content: url("../images/embraceClick1.svg");
+  }
