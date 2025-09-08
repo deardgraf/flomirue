@@ -110,3 +110,9 @@
 .explore-button:active img{
     content: url("../images/exploreClick.svg");
 }
+
+.button-image2 {
+    width: 13vw;
+    height: 5vw;
+    object-fit: contain;
+}

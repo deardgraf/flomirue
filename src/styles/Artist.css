@@ -1,0 +1,100 @@
+.Artist {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    margin: 0;
+    overflow: hidden;
+  }
+
+.backgroundArtist {
+    position: absolute;
+    bottom: 0;  
+    right: 0;
+    width: 85vw;
+    height: 70vh;
+    z-index: 0;
+}
+
+.Roksolana {
+    position: absolute;
+    left: 0;
+    margin-top: 7vw;
+    width: 45vw;
+    height: 85vh;
+    z-index: 1;
+}
+
+.Roksolana::before,
+.Roksolana::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity 1.5s ease;
+}
+
+.Roksolana::before {
+   background-image: url("../images/Roksolana.svg");
+   opacity: 1;
+}
+
+.Roksolana::after {
+   background-image: url("../images/RoksolanaHover.svg");
+   opacity: 0;
+}
+
+.Roksolana:hover::after {
+   opacity: 1;
+}
+
+.Roksolana:hover::before {
+   opacity: 0;
+}
+
+.artistTexts {
+    position: absolute;
+    z-index: 2;
+    margin-top: 3vw;
+    margin-left: 20vw;
+}
+
+.textA1 {
+    font-family: 'Didot';
+    color: black;
+    font-size: 3.6vw;
+    font-weight: 700;
+}
+
+.textA2 {
+    font-family: 'Didot';
+    color: black;
+    font-size: 1.9vw;
+    line-height: 170%;
+    margin-left: 5vw;
+    font-weight: 400;
+}
+
+.textA3 {
+    font-family: 'Didot';
+    color: black;
+    font-size: 2.7vw;
+    font-weight: 700;
+}
+
+.button-image3 {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 20vw;
+    margin-left: 10vw;
+}
+
+.button-image4 {
+    width: 3vw;
+    height: 3vw;
+}
