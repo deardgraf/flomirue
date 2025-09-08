@@ -5,6 +5,7 @@ import backgroundVision from '../images/backgroundVision.jpg';
 import overlay from '../images/overlayVision.svg';
 import rect from '../images/RectangleGray.svg';
 import textVision from '../images/textVision.svg';
+import exploreS from '../images/exploreStatic.svg';
 
 function Vision() {
   return (
@@ -25,6 +26,15 @@ function Vision() {
         <div className="overlayText2">
             <p className="textV2">Interested in collaborating?</p>
             <p className="textV3">Let's create something unforgettable together.</p>
+        </div>
+        <div className="overlayText3">
+          <Link to="/" className="explore-button">
+                <img
+                    src={exploreS}
+                    alt="Explore"
+                    className="button-image2"
+                />
+            </Link>
         </div>
     </div>
   );
