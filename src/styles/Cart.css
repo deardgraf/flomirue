@@ -1,0 +1,76 @@
+.Cart {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    margin: 0;
+    overflow: hidden;
+}
+
+.tailoring {
+    position: absolute;
+    width: 93vw;
+    height: auto;
+    margin-bottom: 25vw;
+    z-index: 1;
+}
+
+.backgroundCart {
+    position: absolute;
+    width: 60vw;
+    height: 50vh;
+    margin-top: 3vw;
+    z-index: 0;
+}
+
+.overlayCart {
+    position: absolute;
+    width: 29vw;
+    height: 70vh;
+    margin-right: 50vw;
+    margin-top: 3vw;
+    z-index: 2;
+}
+
+.textCart {
+    font-family: 'Didot';
+    color: white;
+    font-size: 2.8vw;
+    font-weight: 700;
+    text-shadow: 0 0 0.35vw black;
+    z-index: 2;
+}
+
+.cartContactsContainer {
+    position: absolute;
+    z-index: 2;
+    margin-top: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12vw;
+}
+
+.cartContacts {
+    font-family: 'Didot';
+    color: black;
+    font-size: 2vw;
+    line-height: 170%;
+    margin-left: 5vw;
+    font-weight: 400;
+}
+
+.button-image5 {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 20vw;
+    margin-left: 15vw;
+}
+
+.button-image6 {
+    width: 3vw;
+    height: 3vw;
+}
