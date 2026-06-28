@@ -45,5 +45,6 @@
   }
 
   .embrace-button:active img {
-    content: url("../images/embraceClick1.svg");
+    filter: brightness(0.5);
+    transform: translateY(2px);
   }

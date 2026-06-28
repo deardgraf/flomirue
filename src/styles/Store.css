@@ -1,18 +1,18 @@
 .Store {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     background: #FFFFFF;
     margin: 0;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .line {
   width: 95vw;
-  height: 0.07vh;
-  margin-top: 21vh;
+  height: 0.09vh;
+  margin-top: 21.5vh;
   background-color: black;
 }
 
@@ -40,4 +40,91 @@
     font-size: 1.5vw;
     text-align: right;
     margin-top: 11vh;
+}
+
+.storeContent {
+    position: absolute;
+    top: 23vh;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.productImage{
+    width:33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.productInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sh3{
+    font-family:'Oswald';
+    font-size:2.5vw;
+    font-weight:500;
+    margin-top: 3vh;
+    margin-bottom:1vh;
+    text-align: center;
+}
+
+.description{
+    font-family:'DM Serif Text';
+    font-size:1.15vw;
+    text-align:right;
+    line-height:1.6; 
+    margin-bottom:1vh;
+}
+
+.infoBlock{
+    width:100%;
+    margin-bottom:1vh;
+}
+
+.sh4{
+    font-family:'DM Serif Text';
+    font-size:1.3vw;
+    font-weight:700;
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
+.sh5{
+    font-family:'DM Serif Text';
+    font-size:1.1vw;
+    line-height:1.8;
+    margin-top: 0;
+}
+
+.order-button {
+    margin-top: auto;
+    align-self: flex-end;
+    padding-bottom: 3vh;
+}
+
+.order-button-image {
+  width: 12vw;
+  height: 5vw;
+  object-fit: contain;
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+.order-button:hover img
+{ 
+  content: url("../images/orderHover.svg"); 
+}
+
+.order-button:active img {
+  filter: brightness(0.6);
+  transform: translateY(2px);
 }

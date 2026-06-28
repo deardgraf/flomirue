@@ -63,7 +63,8 @@
   }
 
   .vision-button:active img{
-    content: url("../images/visionClick.svg");
+    filter: brightness(0.2);
+    transform: translateY(2px);
   }
     
   .store-button:hover img{
@@ -71,7 +72,8 @@
   }
 
   .store-button:active img{
-    content: url("../images/storeClick.svg");
+    filter: brightness(0.2);
+    transform: translateY(2px);
   }
     
   .artist-button:hover img{
@@ -79,7 +81,8 @@
   }
 
   .artist-button:active img{
-    content: url("../images/artistClick.svg");
+    filter: brightness(0.2);
+    transform: translateY(2px);
   }
 
   .icon-image {
@@ -93,5 +96,6 @@
   }
 
   .icon-image:active {
-    content: url("../images/logoCartClick.svg");
+    filter: brightness(0.6);
+    transform: translateY(2px);
   }
